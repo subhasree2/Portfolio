@@ -1,4 +1,3 @@
-import Modal from "../components/Modal";
 import Head from "next/head";
 import Image from "next/image";
 import Web from '../public/images/Web.webp';
