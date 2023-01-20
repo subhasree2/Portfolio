@@ -37,7 +37,7 @@ export default function Navbar() {
                                             </a>
                                         ))}
                                         <a href="subhasreeResume.pdf" download="Subhasree's Resume">
-                                            <button className='text-white text-medium font-medium bg-teal-500 pl-3 pr-3 rounded-md h-9'>Subhasree's Resume</button>
+                                            <button className='text-white text-medium font-medium bg-teal-500 pl-3 pr-3 rounded-md h-9'>Subhasree&apos;s Resume</button>
                                         </a>
                                     </div>
                                 </div>
