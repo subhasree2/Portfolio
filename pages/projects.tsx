@@ -8,8 +8,6 @@ export default function projects() {
     const [Content, setContent] = useState({});
 
     function Open(project: {}) {
-        console.log(project);
-
         setShowModal(true);
         setContent({
             id: project["id"],
@@ -35,7 +33,7 @@ export default function projects() {
                     <div className="container px-5 mx-auto lg:pt-12 lg:px-32">
                         {ProjectsData.map((project) => {
                             return (
-                                <div className="rounded-lg border-teal-500 border-b-2 mb-8 p-7 shadow-lg hover:border-2 hover:bg-gray-700 hover:border-none hover:cursor-pointer">
+                                <div className="rounded-lg border-teal-500 border-b-2 mb-8 p-7 shadow-lg hover:border-2 hover:bg-gray-700 hover:border-none hover:cursor-pointer" key={project.id}>
                                     <div className="p-1 lg:flex">
                                         <img alt="gallery" src={project.img} className="w-200 h-64" width={400} height={100} />
                                         <div className="flex-row text-white pl-10">
