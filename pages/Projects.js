@@ -7,7 +7,7 @@ export default function Projects() {
     const [showModal, setShowModal] = useState(false);
     const [Content, setContent] = useState({});
 
-    function Open(project: {}) {
+    function Open(project) {
         setShowModal(true);
         setContent({
             id: project["id"],
