@@ -3,7 +3,7 @@ import Head from "next/head";
 import { useState } from "react";
 import ProjectsData from "../public/store/ProjectsData.json";
 
-export default function projects() {
+export default function Projects() {
     const [showModal, setShowModal] = useState(false);
     const [Content, setContent] = useState({});
 
