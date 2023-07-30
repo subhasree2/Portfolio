@@ -62,10 +62,6 @@ export default function skills() {
 
                         <div className="flex gap-10 mt-9 text-7xl text-yellow-400 items-center justify-center align-middle">
                             <div className="flex hover:scale-110">
-                                <SiTypescript />
-                                <span className="pl-2 text-2xl text-center my-auto">Typescript</span>
-                            </div>
-                            <div className="flex hover:scale-110">
                                 <DiReact />
                                 <span className="pl-2 text-2xl text-center my-auto">React</span>
                             </div>
@@ -76,19 +72,6 @@ export default function skills() {
                             <div className="flex hover:scale-110">
                                 <DiWordpress />
                                 <span className="pl-2 text-2xl text-center my-auto">Wordpress</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="border-2 shadow-lg mt-10 mr-36 ml-36 rounded-md p-6 text-center border-b-teal-500 border-r-teal-500 hover:scale-105 hover:bg-teal-900">
-                        <h3 className="text-white text-3xl text-left font-serif">Databases</h3>
-                        <div className="flex gap-10 mt-9 text-7xl text-yellow-400 items-center justify-center align-middle">
-                            <div className="flex hover:scale-110">
-                                <DiMysql />
-                                <span className="pl-2 text-2xl text-center my-auto">MySQL</span>
-                            </div>
-                            <div className="flex hover:scale-110">
-                                <SiSqlite />
-                                <span className="pl-2 text-2xl text-center my-auto">Sqlite</span>
                             </div>
                         </div>
                     </div>
@@ -104,14 +87,6 @@ export default function skills() {
                                 <span className="pl-2 text-2xl text-center my-auto">Visual Studio Code</span>
                             </div>
                             <div className="flex hover:scale-110">
-                                <DiDocker />
-                                <span className="pl-2 text-2xl text-center my-auto">Docker</span>
-                            </div>
-                            <div className="flex hover:scale-110">
-                                <SiFirebase />
-                                <span className="pl-2 text-2xl text-center my-auto">Firebase</span>
-                            </div>
-                            <div className="flex hover:scale-110">
                                 <DiSublime />
                                 <span className="pl-2 text-2xl text-center my-auto">Sublime Text</span>
                             </div>
@@ -120,14 +95,6 @@ export default function skills() {
                             <div className="flex hover:scale-110">
                                 <AiFillGithub />
                                 <span className="pl-2 text-2xl text-center my-auto">Github</span>
-                            </div>
-                            <div className="flex hover:scale-110">
-                                <SiGithubactions />
-                                <span className="pl-2 text-2xl text-center my-auto">Github actions</span>
-                            </div>
-                            <div className="flex hover:scale-110">
-                                <DiIntellij />
-                                <span className="pl-2 text-2xl text-center my-auto">IntelliJ IDEA</span>
                             </div>
                             <div className="flex hover:scale-110">
                                 <SiJetbrains />
