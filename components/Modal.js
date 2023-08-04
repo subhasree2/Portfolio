@@ -10,7 +10,7 @@ const Modal = ({ isVisible, onClose, Content }) => {
                 <div className="bg-white p-3 rounded-lg">
                     <h1 className="text-3xl font-serif font-medium">{Content[`id`]}</h1>
                     <div className="mt-3 ml-3 mr-3 border-[5px] border-teal-900 p-2 border-solid shadow-lg text-black bg-gradient-to-r from-amber-200 to-yellow-500">
-                        <h1 className="text-2xl py-2 first-letter:text-3xl">Abstract</h1>
+                        <h1 className="text-2xl py-2 first-letter:text-3xl"><span className="font-semibold text-teal-900">O</span>verview</h1>
                         <p className="text-1xl leading-6">{Content['overview']}</p>
                     </div>
                     <img src={Content['gif']} className="w-[500px] h-[300px] m-2 mx-auto" />

@@ -4,8 +4,9 @@ import { useRouter } from 'next/router';
 const navigation = [
     { name: 'Home', href: '/', current: true },
     { name: 'Projects', href: '/Projects', current: false },
-    { name: 'Skills', href: '/skills', current: false },
+    { name: 'Expertise', href: '/skills', current: false },
     { name: 'Education', href: '/education', current: false },
+    { name: 'Achievements', href: '/achievement', current: false },
 ]
 
 function classNames(...classes: string[]) {

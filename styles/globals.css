@@ -29,3 +29,32 @@ a {
   text-decoration: none;
 }
 
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+}
+
+/* Normal state */
+.boxshadow {
+  box-shadow: 15px 11px 16px -2px rgba(128, 128, 128, 0.75);
+  -webkit-box-shadow: 15px 11px 16px -2px rgba(128, 128, 128, 0.75);
+  -moz-box-shadow: 15px 11px 16px -2px rgba(128, 128, 128, 0.75);
+  background-color: black;
+  transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+/* Hover state */
+.boxshadow:hover,.present {
+  background-color: rgba(64, 64, 64, 0.8); /* Slightly darker grey on hover */
+}
+
+.project {
+  /* background-image: url("../public/bg.jpg"); */
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover; /* This property ensures the image covers the entire element */
+  background-position: center;
+}

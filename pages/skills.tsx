@@ -8,13 +8,13 @@ export default function skills() {
         <div>
             <Head>
                 <title>Subhasree M</title>
-                <link rel="icon" href="./favicon.ico" />
+                <link rel="icon" href="./logo.png" />
             </Head>
 
-            <main className="overflow-hidden text-gray-700 bg-gray-800">
+            <main className="overflow-hidden text-gray-700 project">
                 <section>
-                <h1 className="text-4xl text-white text-center py-1 font-semibold mt-2">Skills</h1>
-                    <div className="border-2 shadow-lg mt-10 mr-36 ml-36 rounded-md p-6 text-center border-b-teal-500 border-r-teal-500 hover:scale-105 hover:bg-teal-900">
+                <h1 className="text-4xl text-white text-center py-1 font-semibold mt-8 tracking-widest font-serif">Expertise</h1>
+                    <div className="border-2 shadow-lg mt-10 mr-36 ml-36 rounded-md p-6 text-center hover:scale-105 boxshadow">
                         <h3 className="text-white text-3xl text-left font-serif">Programming Languages</h3>
                         <div className="flex gap-10 mt-9 text-7xl text-yellow-400 items-center justify-center align-middle">
                             <div className="flex hover:scale-110">
@@ -35,7 +35,7 @@ export default function skills() {
                             </div>
                         </div>
                     </div>
-                    <div className="border-2 shadow-lg mt-10 mr-36 ml-36 rounded-md p-6 text-center border-b-teal-500 border-r-teal-500 hover:scale-105 hover:bg-teal-900">
+                    <div className="border-2 shadow-lg mt-10 mr-36 ml-36 rounded-md p-6 text-center boxshadow">
                         <h3 className="text-white text-3xl text-left font-serif">Web Stack</h3>
                         <div className="flex gap-10 mt-9 text-7xl text-yellow-400 items-center justify-center align-middle">
                             <div className="flex hover:scale-110">
@@ -75,7 +75,7 @@ export default function skills() {
                             </div>
                         </div>
                     </div>
-                    <div className="border-2 shadow-lg mt-10 mr-36 ml-36 mb-10 rounded-md p-6 text-center border-b-teal-500 border-r-teal-500 hover:scale-105 hover:bg-teal-900">
+                    <div className="border-2 shadow-lg mt-10 mr-36 ml-36 mb-10 rounded-md p-6 text-center boxshadow">
                         <h3 className="text-white text-3xl text-left font-serif">Tools</h3>
                         <div className="flex gap-10 mt-9 text-7xl text-yellow-400 items-center justify-center align-middle">
                             <div className="flex hover:scale-110">
