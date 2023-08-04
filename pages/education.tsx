@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import { useState, useEffect } from 'react';
 import { PiCertificateDuotone } from 'react-icons/pi';
 import CertificateData from '../public/store/CertificateData.json';
 
@@ -13,12 +12,7 @@ interface Certificate {
 
 export default function education() {
     let index = -1;
-    const [certData, setCertData] = useState<Certificate[]>([]);
-
-    useEffect(() => {
-        const sortedData = CertificateData.sort((a: Certificate, b: Certificate) => new Date(b.Date).getTime() - new Date(a.Date).getTime());
-        setCertData(sortedData);
-    }, []);
+    CertificateData.sort((a: Certificate, b: Certificate) => new Date(b.Date).getTime() - new Date(a.Date).getTime());
 
     return (
         <div>
@@ -55,7 +49,7 @@ export default function education() {
                 <section className="">
                     <h1 className="text-3xl text-white text-center mt-10 font-semibold tracking-widest font-serif mb-10">Certifications</h1>
                     <div className="mt-15 pl-11 flex flex-col items-center justify-center">
-                        {certData.map((cert) => {
+                        {CertificateData.map((cert) => {
                             index++;
                             const flexAlignment = index % 2 != 0 ? 'ml-[150px]' : 'mr-[200px]';
 

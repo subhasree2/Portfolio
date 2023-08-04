@@ -14,7 +14,7 @@ const Modal = ({  isVisible , onClose, Content }) => {
                         <h1 className="text-2xl py-2 first-letter:text-3xl"><span className="font-semibold text-teal-900">O</span>verview</h1>
                         <p className="text-1xl leading-6">{Content['overview']}</p>
                     </div>
-                    <Image src={Content['gif']} className="m-2 mx-auto" width={500} height={300}/>
+                    <Image src={Content['gif']} className="m-2 mx-auto" width={500} height={300} alt="Demo Image"/>
                     <div className="flex align-middle place-items-stretch justify-center mt-5 space-x-4">
                         <button className="px-4 py-2 rounded-md text-1xl font-medium text-white bg-teal-500 mb-2"><Link href={Content["code"]} target="_blank">View Code</Link></button>
                         {Content['link']!="" &&
