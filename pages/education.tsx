@@ -55,12 +55,12 @@ export default function education() {
                 <section className="">
                     <h1 className="text-3xl text-white text-center mt-10 font-semibold tracking-widest font-serif mb-10">Certifications</h1>
                     <div className="mt-15 pl-11 flex flex-col items-center justify-center">
-                        {CertificateData.map((cert) => {
+                        {certData.map((cert) => {
                             index++;
                             const flexAlignment = index % 2 != 0 ? 'ml-[150px]' : 'mr-[200px]';
 
                             return (
-                                <div className={`boxshadow border-2 boxshadow flex p-3 w-[70%] text-white mb-5 ${flexAlignment} hover:scale-105`}>
+                                <div className={`boxshadow border-2 boxshadow flex p-3 w-[70%] text-white mb-5 ${flexAlignment} hover:scale-105`} key={cert.name}>
                                     <PiCertificateDuotone className="w-20 h-20" />
                                     <div className="pl-4">
                                         <h2 className="text-[19px] tracking-wide text-amber-300 font-medium">{cert.name}</h2>

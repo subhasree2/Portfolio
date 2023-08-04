@@ -19,7 +19,7 @@ export default function Home() {
           <div className='text-center py-7'>
             <h2 className='text-5xl py-1 text-teal-200 font-medium'>Subhasree M</h2>
             <h3 className='text-4xl py-4 text-white'>Web Developer</h3>
-            <p className='text-2xl text-white leading-9 pt-5 pl-20 pr-20 tracking-wide'>Greetings! I'm Subhasree, a committed web developer passionate about user-friendly web experiences. Venturing into web development has been thrilling, and I'm eager to share it with you🌐</p>
+            <p className='text-2xl text-white leading-9 pt-5 pl-20 pr-20 tracking-wide'>Greetings! I&apos;m Subhasree, a committed web developer passionate about user-friendly web experiences. Venturing into web development has been thrilling, and I'm eager to share it with you🌐</p>
           </div>
           <div className='ml-auto mr-auto h-50 w-80 py-3'>
             <Image src={Web} alt="Dummy" className='rounded-2xl border-l-white' />

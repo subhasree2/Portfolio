@@ -16,7 +16,7 @@ export default function achievement() {
                     <div className="flex p-10 flex-row flex-wrap justify-around">
                         {Achievement.map((item) => {
                             return (
-                                <div className="relative w-300 h-300 boxshadow hover:scale-105">
+                                <div className="relative w-300 h-300 boxshadow hover:scale-105" key={item.name}>
                                     <Image
                                         src={item.link}
                                         alt="Image Description"

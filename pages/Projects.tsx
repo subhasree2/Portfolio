@@ -1,13 +1,23 @@
 import Modal from "@/components/Modal";
 import Head from "next/head";
+import Image from 'next/image';
 import { useState } from "react";
 import ProjectsData from "../public/store/ProjectsData.json";
+
+interface Project {
+    id: string,
+    overview: string,
+    img: string,
+    gif: string,
+    code: string,
+    link: string
+}
 
 export default function Projects() {
     const [showModal, setShowModal] = useState(false);
     const [Content, setContent] = useState({});
 
-    function Open(project) {
+    function Open(project: Project) {
         setShowModal(true);
         setContent({
             id: project["id"],
@@ -35,7 +45,7 @@ export default function Projects() {
                             return (
                                 <div className="rounded-lg boxshadow border-teal-500 mb-8 p-7 shadow-lg hover:border-2 hover:bg-gray-600 hover:border-none" key={project.id}>
                                     <div className="p-1 lg:flex">
-                                        <img alt="gallery" src={project.img} className="w-200 h-64" width={400} height={100} />
+                                        <Image src={project.img} alt="Project" width={400} height={400}/>
                                         <div className="flex-row text-white pl-10">
                                             <h3 className="text-[28px] pb-5 text-teal-400 font-semibold tracking-widest">{project.id}</h3>
                                             <p className="text-1xl leading-7 text-justify line-clamp-3 overflow-hidden">{project.overview}</p>

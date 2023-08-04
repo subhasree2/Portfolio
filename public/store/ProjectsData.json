@@ -2,65 +2,57 @@
     {
         "id": "Resume Wizard",
         "overview": "This project is a Resume Generator web application built using Next.js, Tailwind CSS, and Redux for managing state. The application allows users to create their personalized resumes through an interactive user interface and provides the option to download the resume as a PDF.",
-        "img": "../images/ResumeWiz.png",
-        "gif": "../images/ResumeWiz.png",
+        "img": "https://drive.google.com/uc?export=download&id=1msrfLDdDVUbjtnjhz5BWrRpSB_urx6kb",
+        "gif": "https://drive.google.com/uc?export=download&id=1msrfLDdDVUbjtnjhz5BWrRpSB_urx6kb",
         "code": "https://github.com/subhasree2/Resume-Wizard",
         "link": "https://resume-wiz.vercel.app/"
     },
     {
         "id" : "Penman",
         "overview": "Penman is a blogging website featuring a React frontend, a Node.js backend with Express, and a MySQL database managed through Sequelize. This tech stack enables a dynamic and user-friendly platform for sharing captivating content with the audience.",
-        "img": "../images/Penman.png",
-        "gif": "../images/Penman.png",
+        "img": "https://drive.google.com/uc?export=download&id=1DlR6Y_DlKos7BblCyJbArgP5ka53SpAf",
+        "gif": "https://drive.google.com/uc?export=download&id=1DlR6Y_DlKos7BblCyJbArgP5ka53SpAf",
         "code": "https://github.com/subhasree2/Penman",
         "link": ""
     },
     {
         "id": "PyGround",
         "overview": "Pyground represents an internet-based code editor that leverages NextJS and Tailwindcss for its implementation. The platform utilizes the Monaco Editor to create a dynamic coding environment, enabling users to code seamlessly. In addition, Pyground incorporates the powerful Judge0 API to compile and execute code efficiently.",
-        "img": "../images/Pyground.png",
-        "gif": "../images/Pyground.png",
+        "img": "https://drive.google.com/uc?export=download&id=18GonrkPnufdQJpy-dzWGN6TihWQd7J_O",
+        "gif": "https://drive.google.com/uc?export=download&id=18GonrkPnufdQJpy-dzWGN6TihWQd7J_O",
         "code": "https://github.com/subhasree2/Pyground",
         "link": ""
     },
     {
         "id": "Binge Watch",
         "overview": "This project features my recreation of BookMyShow, the online ticket booking site, using the React library for the frontend. BookMyShow serves as a versatile ticketing application, catering to movies, concerts, live events, and more. ",
-        "img": "../images/BookMyShow.png",
-        "gif": "../gif/BookMyShow.gif",
+        "img": "https://drive.google.com/uc?export=download&id=1IpR6pdbZrf83ZGSNCyBYR8ppDM53B3E8",
+        "gif": "https://drive.google.com/uc?export=download&id=1-a8JrJh6BMrQfABVyHiRrptUjTzSykn4",
         "code": "https://github.com/subhasree2/BingeWatch",
         "link": "https://bookmyshow-iamneo.netlify.app/"
     },
     {
         "id" : "Blocked-In",
         "overview": "Introducing BlockedIn, a productive chrome extension designed to block distracting websites and assist users in efficiently managing tasks to boost productivity. This project is skillfully developed with Django, enabling seamless implementation and empowering users to stay focused and accomplish their goals effectively. Embrace productivity with BlockedIn and take control of your online habits.",
-        "img": "../images/Blocked-In.jpeg",
-        "gif": "../gif/BlockedIn.gif",
+        "img": "https://drive.google.com/uc?export=download&id=1bpju1r5q6Uvm8UZuTjyrkbSBUSWTWHYs",
+        "gif": "https://drive.google.com/uc?export=download&id=10u_PIGfxGbIdl6agtdVAoNsF563RoiZG",
         "code": "https://github.com/subhasree2/Blocked-In",
         "link": ""
     },
     {
         "id" : "Sudoku-Solver",
         "overview": "This Python project brings the widely popular Sudoku puzzle, a logic and combinatorial math-based challenge, to life. It includes an in-built automatic puzzle solver, adding a touch of Artificial Intelligence. Sudoku enthusiasts, both online and on paper, can now enjoy this implementation that combines the thrill of solving with the efficiency of AI assistance.",
-        "img": "../images/Sudoku.png",
-        "gif": "../gif/Sudoku.gif",
+        "img": "https://drive.google.com/uc?export=download&id=1koY5wqacT0x4PzUmouJKl-zmxkLiEZWs",
+        "gif": "https://drive.google.com/uc?export=download&id=1anrMYhzlLN0THV2XjUF589pje-lzmHJu",
         "code": "https://github.com/subhasree2/Sudoku-Solver",
         "link": ""
     },
     {
         "id" : "Agenda-List",
         "overview": "Presented here is my implementation of Google Keep, a widely used notes-taking site, in the form of a clone. Google Keep is a feature-rich application that allows users to store notes, add labels, archive, and more. I have utilized HTML, CSS, and JavaScript to create this project. ",
-        "img": "../images/Agenda.jpeg",
-        "gif": "../gif/Google Keep.gif",
+        "img": "https://drive.google.com/uc?export=download&id=16jTOSht4XZMxRP0TyrfzhUJ68tak8U_7",
+        "gif": "https://drive.google.com/uc?export=download&id=1WLIj2Lp4OrnWtD3fFhfbRWmRFzyNVC4y",
         "code": "https://github.com/subhasree2/Agenda-IamNEO",
         "link": "https://subhasree2.github.io/Agenda-IamNEO/"
-    },
-    {
-        "id" : "Senora",
-        "overview": "Presented here is an e-commerce website, skillfully implemented with HTML, CSS, and JavaScript. Leveraging the power of localStorage, the website efficiently stores items, ensuring a seamless shopping experience. ",
-        "img": "../images/Senora.png",
-        "gif": "../gif/Senora.gif",
-        "code": "https://github.com/subhasree2/Senora",
-        "link": "https://subhasree2.github.io/Senora"
     }
 ]
